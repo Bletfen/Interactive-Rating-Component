@@ -17,10 +17,6 @@ This is a simple interactive rating component built with **React** and styled wi
 - JavaScript
 - SVG Assets
 
-## 📸 Screenshots
-
-_(Add screenshots if you have them, or remove this section)_
-
 ## 🚀 Getting Started
 
 To run this project locally:
