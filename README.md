@@ -1,12 +1,83 @@
-# React + Vite
+# Interactive Rating Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple interactive rating component built with **React** and styled with **CSS**, The goal of this project was to create a clean, responsive rating interface where users can select a score from 1 to 5 and submit their feedback.
 
-Currently, two official plugins are available:
+## 🔍 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive layout
+- Interactive selection of rating (1 to 5)
+- Visual feedback when a rating is selected
+- Thank-you screen after submission
+- Clean, modern UI
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Vite)
+- CSS
+- JavaScript
+- SVG Assets
+
+## 📸 Screenshots
+
+_(Add screenshots if you have them, or remove this section)_
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Bletfen/Interactive-Rating-Component.git
+
+    Navigate into the project folder
+   ```
+
+cd Interactive-Rating-Component
+
+Install dependencies
+
+npm install
+
+Start the development server
+
+    npm run dev
+
+    Open in browser
+    Go to http://localhost:5173
+
+📁 Folder Structure
+
+Interactive-Rating-Component/
+├── public/
+│ └── images/ # SVG icons and illustrations
+├── src/
+│ ├── components/ # Reusable components (Rating, Result, etc.)
+│ ├── App.jsx # Main app component
+│ └── main.jsx # Entry point
+├── index.html
+└── README.md
+
+🎯 What I Learned
+
+    How to use useState for managing component state
+
+    Dynamic class application in React
+
+    Handling user interactions with radio buttons and conditional rendering
+
+    Creating a polished user experience with transitions and visual feedback
+
+💡 Future Improvements
+
+    Add validation to prevent submission without selection
+
+    Implement keyboard navigation (accessibility)
+
+    Add animations between screens
+
+📄 License
+
+This project is open source and free to use.
+
+Made with ❤️ by Bletfen
